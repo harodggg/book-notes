@@ -4,8 +4,8 @@ rustup 是rust 的工具链管理器，可以建立多个不同的工具链环�
 
 1. channel 发布版本渠道stable/beta/nigthly
 2. toolchain 工具链
-3. proxy
-4. profile 配置
+3. proxy 就是工具链的工具的命令行接口，可以直接在终端使用
+4. profile 可以让工具链选择特定工具链配置文件
 5. target 编译目标平台
 6. component 组建
 
@@ -15,4 +15,5 @@ rustup 是rust 的工具链管理器，可以建立多个不同的工具链环�
 - cargo：Rust 包管理器，它负责下载依赖、构建项目、运行测试等。
 - rustdoc：Rust 文档生成器，它可以根据你的代码生成文档。
 - rustfmt：Rust 代码格式化工具，它可以帮你自动格式化代码，保持代码风格的一致性。
-- clippy：Rust linter，它可以帮你找出代码中的潜在问题和优化-
+- clippy：Rust linter，它可以帮你找出代码中的潜在问题和优化。
+
